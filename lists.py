@@ -4,12 +4,12 @@ def remove_elements(list_to_remove_elements):
         return [list_to_remove_elements]
     elif 2 < len(list_to_remove_elements) < 6:
         list_to_remove_elements.remove (0)
-        list_to_remove_elements.remove (5)
+        list_to_remove_elements.remove (4)
         return [list_to_remove_elements]
     else:
         list_to_remove_elements.remove (0)
+        list_to_remove_elements.remove (4)
         list_to_remove_elements.remove (5)
-        list_to_remove_elements.remove (6)
         return [list_to_remove_elements]
 
 
