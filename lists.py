@@ -1,13 +1,10 @@
 def remove_elements(list_to_remove_elements):
-    if len(list_to_remove_elements) < 5:
-        list_to_remove_elements.remove (0)
-    elif 5 < len(list_to_remove_elements) < 6:
-        list_to_remove_elements.remove (0)
-        list_to_remove_elements.remove (4)
-    else:
-        list_to_remove_elements.remove (0)
-        list_to_remove_elements.remove (4)
-        list_to_remove_elements.remove (5)
+    if len(list_to_remove_elements) > 0:
+        del list_to_remove_elements [0]
+    if len(list_to_remove_elements) > 4:
+        del list_to_remove_elements [3]
+    if len(list_to_remove_elements) > 5:
+        del list_to_remove_elements [4]
     return list_to_remove_elements
 
 
