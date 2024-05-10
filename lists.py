@@ -40,5 +40,5 @@ def list_of_lists(list_of_lists_to_modify):
     list_of_lists_to_modify [1][2]
     list_of_lists_to_modify [1][3]
     list_of_lists_to_modify [2][-1]
-    list_of_lists_to_modify [2][-1]
+    list_of_lists_to_modify [2][-2]
     return list_of_lists_to_modify
