@@ -29,11 +29,11 @@ def check_lists(list_to_compare1, list_to_compare2):
 
 
 def list_of_lists(list_of_lists_to_modify):
-    list_of_lists_to_modify [0][0]
-    list_of_lists_to_modify [0][1]
-    list_of_lists_to_modify [1][1]
-    list_of_lists_to_modify [1][2]
-    list_of_lists_to_modify [1][3]
-    list_of_lists_to_modify [2][-1]
-    list_of_lists_to_modify [2][-2]
+    del list_of_lists_to_modify [0][0]
+    del list_of_lists_to_modify [0][1]
+    del list_of_lists_to_modify [1][1]
+    del list_of_lists_to_modify [1][2]
+    del list_of_lists_to_modify [1][3]
+    del list_of_lists_to_modify [2][-1]
+    del list_of_lists_to_modify [2][-2]
     return list_of_lists_to_modify
