@@ -3,19 +3,17 @@ def remove_elements(list_to_remove_elements):
         list_to_remove_elements.remove (5)
         list_to_remove_elements.remove (4)
         list_to_remove_elements.remove (0)
-        return [list_to_remove_elements]
-    elif len(list_to_remove_elements) < 6 and len(list_to_remove_elements) >2:
+    elif 2 < len(list_to_remove_elements) <= 6:
         list_to_remove_elements.remove (4)
         list_to_remove_elements.remove (0)
-        return [list_to_remove_elements]
     else:
         list_to_remove_elements.remove (0)
-        return [list_to_remove_elements]
+    return list_to_remove_elements
 
 
 def add_elements(list_to_add_elements):
     list_to_add_elements.insert (0, "Pink")
-    list_to_add_elements.insert (-1, "Yellow")
+    list_to_add_elements.append ("Yellow")
     return [list_to_add_elements]
 
 
@@ -27,7 +25,7 @@ def is_empty(list_to_check):
 
 
 def check_lists(list_to_compare1, list_to_compare2):
-    if len(list_to_compare1) and len(list_to_compare2) > 3 and list_to_compare1 [2] == list_to_compare2 [2]:
+    if len(list_to_compare1) > 3 and len(list_to_compare2) > 3 and list_to_compare1 [2] == list_to_compare2 [2]:
         return True
     else:
         return False
