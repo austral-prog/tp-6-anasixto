@@ -1,5 +1,14 @@
 def remove_elements(list_to_remove_elements):
-    return hola
+    if len(list_to_remove_elements) >= 6:
+        del list_to_remove_elements [0] #(1,2,3,4,5,6)
+        del list_to_remove_elements [3] #(2,3,4,5,6)
+        del list_to_remove_elements [3]  #(2,3,4,6)
+    elif len(list_to_remove_elements) >=5:
+        del list_to_remove_elements [0]
+        del list_to_remove_elements [3]
+    elif len(list_to_remove_elements) <5 and (list_to_remove_elements)!=[]:
+        del list_to_remove_elements [0]
+    return list_to_remove_elements
 
 
 def add_elements(list_to_add_elements):
