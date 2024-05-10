@@ -1,5 +1,5 @@
 def remove_elements(list_to_remove_elements):
-    
+    return
 
 
 def add_elements(list_to_add_elements):
